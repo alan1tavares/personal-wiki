@@ -8,11 +8,7 @@ Abreviação de **C**ontent **D**elivery **N**etwork. Tradução, Rede de Distri
 
 > CDN, é uma maneira de enviar conteúdo massivo para usuários sem ter problemas com desempenho. \[2\]
 
-### Segurança
-
-
-
-Links
+### Links
 
 1. [https://www.gocache.com.br/cdn/](https://www.gocache.com.br/cdn/)
 2. [https://pt.wikipedia.org/wiki/Rede\_de\_fornecimento\_de\_conte%C3%BAdo](https://pt.wikipedia.org/wiki/Rede_de_fornecimento_de_conte%C3%BAdo)
