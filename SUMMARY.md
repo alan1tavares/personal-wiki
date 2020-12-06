@@ -12,5 +12,6 @@
 
 ## Mobile
 
+* [Android](mobile/android.md)
 * [Google Fit](mobile/google-fit.md)
 
