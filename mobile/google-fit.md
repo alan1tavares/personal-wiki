@@ -59,7 +59,7 @@ Certificate fingerprints:
 Em Get an OAuth 2.0 Client ID possui um conjunto de passo em como fazer isso, mas vale fazer alguma observações
 
 1. Para saber o nome do pacote que foi criado, ir na pasta `android\app\src` e localizar o arquivo `_BUCK`. Nesse arquivo tem um _json_ com a propriedade _package_. O que estiver atribuído nessa propriedade é o nome do pacote.
-2. Durante o processo da obtenção do client ID irá pedir para confiurar a tela consentimento. É necessário realizar a configuração para poder finalizar o processo de obtenção  do client ID.
+2. Durante o processo da obtenção do client ID irá pedir para configurar a tela consentimento. É necessário realizar a configuração para poder finalizar o processo de obtenção  do client ID.
 
 ## Referencia bibliográfica
 
