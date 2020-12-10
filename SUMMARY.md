@@ -12,7 +12,8 @@
 
 ## Mobile
 
-* [Android](mobile/android.md)
+* [Android](mobile/android/README.md)
+  * [Itent](mobile/android/itent.md)
 * [Google Fit](mobile/google-fit.md)
 
 ## .NET
