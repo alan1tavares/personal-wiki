@@ -47,7 +47,7 @@ Como mostrado acima, de acordo com o modelo escolhido, existe diferentes respons
 
 ### Referências bibliográficas
 
-1. **Elasticidade \(computação em nuvem\)** - ****[**https://pt.wikipedia.org/wiki/Elasticidade\_\(computa%C3%A7%C3%A3o\_em\_nuvem\)**](https://pt.wikipedia.org/wiki/Elasticidade_%28computa%C3%A7%C3%A3o_em_nuvem%29), Acessado em: 19/12/2020
+1. **Elasticidade \(computação em nuvem\)** - ****[https://pt.wikipedia.org/wiki/Elasticidade\_\(computa%C3%A7%C3%A3o\_em\_nuvem\)](https://pt.wikipedia.org/wiki/Elasticidade_%28computa%C3%A7%C3%A3o_em_nuvem%29)**,** Acessado em: 19/12/2020
 2. **Elasticidade em Cloud Computing: o que é, qual a sua função?** - [https://blog.saphir.com.br/elasticidade-em-cloud-computing-o-que-e/](https://blog.saphir.com.br/elasticidade-em-cloud-computing-o-que-e/), Acessado em: 19/12/2020
 3. **O que é a computação em nuvem?** - [https://docs.microsoft.com/pt-br/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing](https://docs.microsoft.com/pt-br/learn/modules/intro-to-azure-fundamentals/what-is-cloud-computing), Acessado em: 19/12/2020
 
