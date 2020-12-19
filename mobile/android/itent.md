@@ -8,7 +8,7 @@
 
 ## Referências bibliográficas
 
-**Intents e filtros de intents**, Acessado em: [https://developer.android.com/guide/components/intents-filters?hl=pt-br](https://developer.android.com/guide/components/intents-filters?hl=pt-br) 09/12/2020
+**Intents e filtros de intents** - [https://developer.android.com/guide/components/intents-filters?hl=pt-br](https://developer.android.com/guide/components/intents-filters?hl=pt-br) Acessado em: ****09/12/2020
 
 
 
