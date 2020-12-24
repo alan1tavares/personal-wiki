@@ -19,6 +19,7 @@
 
 ## .NET
 
+* [C\#](.net/c.md)
 * [.NET](.net/.net.md)
 
 ---
