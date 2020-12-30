@@ -94,7 +94,7 @@ Em relação a acessibilidade dos membros o C\# possuem três deles que são dif
 
 [\[3\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 
-### Referências bibiográficas
+### Referências bibliográficas
 
 1. [https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/#code-try-0)
 2. [https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/types](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/types)
