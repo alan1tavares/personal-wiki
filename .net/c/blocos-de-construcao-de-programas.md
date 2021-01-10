@@ -33,7 +33,25 @@ Em relação a acessibilidade dos membros o C\# possuem três deles que são dif
 
 ### Virtual
 
+A palavra-chave `virtual` informa para a classe derivada que o método pode ser substituído. Por padrão os métodos não são virtuais, portanto a tentativa de substituir um método não virtual irá ocasionar erro de compilação.
 
+> Não é possível usar o modificador `virtual` com os modificadores `static`, `abstract`, `private` ou `override`. [\[4\]](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/virtual)
+
+Para substituir um método virtual é necessário utilizar a palavra-chave `override` .
+
+```csharp
+class Pai {
+    public virtual string MeuMetodo {
+        //...Código aqui
+    }
+}
+
+class Filha {
+    public override string MeuMetodo {
+        //...Código de substituição
+    }
+}
+```
 
 ## Construtores
 
@@ -92,4 +110,5 @@ Finalizadores são invocados automaticamente na coleta de lixo, com isso eles po
 1. [https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 2. [https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors)
 3. [https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming](https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming)
+4. [https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/virtual](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/keywords/virtual)
 
