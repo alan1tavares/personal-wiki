@@ -35,9 +35,29 @@ Em relação a acessibilidade dos membros o C\# possuem três deles que são dif
 
 Podem ser de dois tipos: instancia e estático.
 
+### Construtores de instância
+
 > Construtores de instância podem ser sobrecarregados e ter parâmetros opcionais [\[1\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 
-Construtores de instância não podem ser herdados. Dessa forma quando uma classe filha não possuir construtor, será um construtor vazio sem parâmetros será fornecido automaticamente.
+> são usados para criar e inicializar quaisquer variáveis de membro de instância quando você usa a expressão `new` para criar um objeto de uma classe [\[2\]](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors)
+
+Construtores não são herdados. Dessa forma quando temos a classe Pai com o construtor declarado expicitamente, ele deve ser passado para o construtor da classe Filha. Isso é feito utilizando a palavra-chave `base` , como segue no exemplo abaixo.
+
+```csharp
+class Pai {
+    public Pai(int arg) {
+        // ...Codigo aqui
+    }
+}
+
+class Filha {
+    public Filha(int args) : base(args) {
+        // ...Codigo aqui
+    }
+}
+```
+
+> **sempre** que inicializamos uma classe filha de outra no C\#, ele precisa chamar um construtor para inicializar a classe base. [\[3\]](http://gabsferreira.com/construtores-sao-herdados-no-csharp/)
 
 ## Eventos
 
@@ -66,4 +86,5 @@ Finalizadores são invocados automaticamente na coleta de lixo, com isso eles po
 ### Referências bibliográficas
 
 1. [https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
-
+2. [https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors)
+3. 
