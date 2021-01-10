@@ -24,12 +24,16 @@ Em relação a acessibilidade dos membros o C\# possuem três deles que são dif
 ### Parâmetros
 
 * Referência `ref`;
-* Síada `out`;
+* Saída `out`;
 * Matriz de parâmetros `params`.
 
 ### Sobrecarga
 
 > A _sobrecarga_ de método permite que vários métodos na mesma classe tenham o mesmo nome, contanto que tenham assinaturas exclusivas. [\[1\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
+
+### Virtual
+
+
 
 ## Construtores
 
