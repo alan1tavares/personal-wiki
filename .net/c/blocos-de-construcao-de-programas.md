@@ -41,7 +41,9 @@ Podem ser de dois tipos: instancia e estático.
 
 > são usados para criar e inicializar quaisquer variáveis de membro de instância quando você usa a expressão `new` para criar um objeto de uma classe [\[2\]](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors)
 
-Construtores não são herdados. Dessa forma quando temos a classe Pai com o construtor declarado expicitamente, ele deve ser passado para o construtor da classe Filha. Isso é feito utilizando a palavra-chave `base` , como segue no exemplo abaixo.
+> O compilador não gera um construtor padrão quando você define um construtor por conta própria. Isso significa que cada classe derivada deve chamar explicitamente esse construtor. [\[3\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming)
+
+Construtores não são herdados. Dessa forma quando temos a classe Pai com o construtor declarado explicitante, ele deve ser passado para o construtor da classe Filha. Isso é feito utilizando a palavra-chave `base` , como segue no exemplo abaixo.
 
 ```csharp
 class Pai {
@@ -56,8 +58,6 @@ class Filha {
     }
 }
 ```
-
-> **sempre** que inicializamos uma classe filha de outra no C\#, ele precisa chamar um construtor para inicializar a classe base. [\[3\]](http://gabsferreira.com/construtores-sao-herdados-no-csharp/)
 
 ## Eventos
 
@@ -87,4 +87,5 @@ Finalizadores são invocados automaticamente na coleta de lixo, com isso eles po
 
 1. [https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 2. [https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors](https://docs.microsoft.com/pt-br/dotnet/csharp/programming-guide/classes-and-structs/instance-constructors)
-3. 
+3. [https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming](https://docs.microsoft.com/pt-br/dotnet/csharp/tutorials/intro-to-csharp/object-oriented-programming)
+
