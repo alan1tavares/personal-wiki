@@ -89,19 +89,31 @@ class Filha {
 
 > é um membro que implementa as ações necessárias para finalizar uma instância de uma classe [\[1\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 
-Normalmente utilizado para liberar recursos.
+Normalmente utilizado para liberar recursos. Um classe só pode ter um finalizador.
 
-Eles não podem ter:
+Eles não podem:
 
-* Não podem ter parâmetros;
-* Modificadores de acesso e
+* Ter parâmetros;
+* Ser definidos por _struct_;
+* Não podem ser herdados ou sobrecarregados;
+* Ter modificadores de acesso e
 * Não podem ser invocados explicitamente.
 
-Finalizadores são invocados automaticamente na coleta de lixo, com isso eles podem ser invocados a qualquer momentos. Dessa forma execução de finalizadores é não determinística. Por esse motivo a implementação de finalizadores deve ser efetuado quando não houver outras soluções viáveis.
+Finalizadores são invocados automaticamente pela coleta de lixo, com isso eles podem ser invocados a qualquer momentos. Dessa forma execução de finalizadores é não determinística. Por esse motivo a implementação de finalizadores deve ser efetuado quando não houver outras soluções viáveis.
 
 > A instrução `using` fornece uma abordagem melhor para a destruição de objetos. [\[1\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 
+Exemplo de implementação do finalizador.
 
+```csharp
+class Pai {
+    ~Pai() {
+        //...C[odgio aqui
+    }
+}
+```
+
+Finalizadores normalmente são utilizados para liberar recursos não gerenciados como leitura/escrita de arquivos e conexões de redes. Para recursos externo custoso é recomendável liberar explicitamente o recurso antes que o coletor libere o objeto. Isso pode ser feito implementando o método `Dispose` da interface `IDisposable` .
 
 [\[1\]](https://docs.microsoft.com/pt-br/dotnet/csharp/tour-of-csharp/program-building-blocks)
 
