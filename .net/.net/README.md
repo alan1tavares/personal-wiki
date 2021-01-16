@@ -4,7 +4,7 @@
 
 > O .NET é um ecossistema para o desenvolvimento de aplicativos [ref](https://docs.microsoft.com/pt-br/learn/modules/dotnet-introduction/2-what-is-dotnet)
 
-![Resumo dos modelos de aplicativos para .NET](../.gitbook/assets/image%20%283%29.png)
+![Resumo dos modelos de aplicativos para .NET](../../.gitbook/assets/image%20%283%29.png)
 
 ## Funcionamento do compilador .NET
 

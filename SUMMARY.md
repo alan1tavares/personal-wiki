@@ -21,7 +21,8 @@
 
 * [C\#](.net/c/README.md)
   * [Blocos de construção de programas](.net/c/blocos-de-construcao-de-programas.md)
-* [.NET](.net/.net.md)
+* [.NET](.net/.net/README.md)
+  * [ASP.NET Core web API](.net/.net/asp.net-core-web-api.md)
 
 ---
 
