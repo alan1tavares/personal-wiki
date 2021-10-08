@@ -6,11 +6,6 @@
 
 * [CDN](infraestrtura/cdn.md)
 
-## Pesquisa TCC
-
-* [Fichamento](pesquisa-tcc/fichamento/README.md)
-  * [Arquitetura de software](pesquisa-tcc/fichamento/arquitetura-de-software.md)
-
 ## Mobile
 
 * [Android](mobile/android/README.md)
